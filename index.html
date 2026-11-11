@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a0a0f" />
+    <link rel="manifest" href="/MattAnki/manifest.json" />
+    <link rel="apple-touch-icon" href="/MattAnki/apple-touch-icon.png" />
+    <link rel="apple-touch-icon-precomposed" href="/MattAnki/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="MattAnki" />
+    <title>MattAnki</title>
+    <link href="/MattAnki/_app/immutable/entry/start.rppf_ZCo.js" rel="modulepreload">
+		<link href="/MattAnki/_app/immutable/chunks/Dmwmu1_P.js" rel="modulepreload">
+		<link href="/MattAnki/_app/immutable/chunks/CNervUcZ.js" rel="modulepreload">
+		<link href="/MattAnki/_app/immutable/chunks/BviKO2Jy.js" rel="modulepreload">
+		<link href="/MattAnki/_app/immutable/entry/app.CvneLQWi.js" rel="modulepreload">
+		<link href="/MattAnki/_app/immutable/chunks/C1FmrZbK.js" rel="modulepreload">
+		<link href="/MattAnki/_app/immutable/chunks/BTv2dqwJ.js" rel="modulepreload">
+		<link href="/MattAnki/_app/immutable/nodes/0.BmSgPDO3.js" rel="modulepreload">
+		
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">
+      
+			<script>
+				{
+					__sveltekit_nfycl1 = {
+						base: "/MattAnki",
+						assets: "/MattAnki"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/MattAnki/_app/immutable/entry/start.rppf_ZCo.js"),
+						import("/MattAnki/_app/immutable/entry/app.CvneLQWi.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+
+					if ('serviceWorker' in navigator) {
+						const script_url = '/MattAnki/service-worker.js';
+						const policy = globalThis?.window?.trustedTypes?.createPolicy(
+							'sveltekit-trusted-url',
+							{ createScriptURL(url) { return url; } }
+						);
+						const sanitised = policy?.createScriptURL(script_url) ?? script_url;
+						addEventListener('load', function () {
+							navigator.serviceWorker.register(sanitised);
+						});
+					}
+				}
+			</script>
+		
+    </div>
+  </body>
+</html>

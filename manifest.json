@@ -1,0 +1,26 @@
+{
+  "name": "MattAnki",
+  "short_name": "MattAnki",
+  "description": "Application PWA de révision par répétition espacée compatible Anki",
+  "start_url": "/MattAnki/",
+  "scope": "/MattAnki/",
+  "display": "standalone",
+  "orientation": "any",
+  "categories": ["education", "productivity"],
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "icons": [
+    {
+      "src": "/MattAnki/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/MattAnki/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

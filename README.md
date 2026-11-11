@@ -6,9 +6,8 @@
 
 [![Web App PWA](https://img.shields.io/badge/WEB_APP_PWA-LANCER_L'APPLICATION-7c3aed?style=flat-square&labelColor=13111C)](https://neplexx.github.io/MattAnki/)
 [![Desktop Releases](https://img.shields.io/github/v/release/neplexx/MattAnki?style=flat-square&label=INSTALLATEURS_PC&labelColor=13111C&color=9333ea)](https://github.com/neplexx/MattAnki/releases)
-[![MattAnki Pro](https://img.shields.io/badge/ACCÈS_À_VIE-3,99_€_(SANS_ABONNEMENT)-10b981?style=flat-square&labelColor=13111C)](https://neplexx-mattanki.lemonsqueezy.com/checkout/buy/1d3cb67f-45f0-4136-8542-e5457ff25e4a)
 [![Plateformes](https://img.shields.io/badge/OS-WINDOWS_%7C_MACOS_%7C_LINUX_%7C_IOS_%7C_ANDROID-a855f7?style=flat-square&labelColor=13111C)](https://github.com/neplexx/MattAnki/releases)
-[![Architecture](https://img.shields.io/badge/STOCKAGE-GOOGLE_DRIVE_APPDATA-6d28d9?style=flat-square&labelColor=13111C)](#synchronisation-zero-knowledge--interopérabilité)
+[![Licence Pro](https://img.shields.io/badge/ACCÈS_À_VIE-3,99_€_(SANS_ABONNEMENT)-10b981?style=flat-square&labelColor=13111C)](#mattanki-pro--un-prix-étudiant-zéro-abonnement)
 
 <br/>
 
@@ -63,7 +62,7 @@ Le moteur de MattAnki remplace les courbes d'oubli opaques par un cycle de valid
 
 ### Le mode « Avancé » : réviser hors-planning à la demande
 
-Depuis le tableau de bord, chaque paquet dispose d'un bouton **Avancé** aux côtés du bouton **Réviser** principal. Cette fonction permet de :
+Depuis le tableau de bord, chaque paquet dispose d'un bouton **Avancé** (inclus dès la version gratuite) aux côtés du bouton **Réviser** principal. Cette fonction permet de :
 1. **Simuler le passage au lendemain :** Déclencher immédiatement la session du jour suivant même si toutes les cartes du jour ont déjà été validées.
 
 2. **Repasser sur l'intégralité du paquet :** Enchaîner les tours complets de révision intensive à l'approche d'une échéance sans dérégler la structure du paquet.
@@ -117,7 +116,7 @@ L'interface de MattAnki a été pensée autour d'une palette sombre profonde (`#
 
 - **Gestion granulaire des cartes « Skipées » :** Lorsqu'une carte est parfaitement connue, cliquer sur **Ignorer** pendant une révision la masque immédiatement. Elle reste accessible à tout moment dans l'onglet **Skipées** du menu **Modifier** du paquet pour être réactivée en un clic.
 
-- **Import / Export `.apkg` sur PC :** Récupérez n'importe quel paquet existant depuis Anki ou partagez vos propres créations avec vos camarades grâce à l'export `.apkg` complet.
+- **Import / Export `.apkg` sur PC :** Récupérez n'importe quel paquet existant depuis Anki (même volumineux) dès la version gratuite ou partagez vos propres créations avec vos camarades grâce à l'export `.apkg` complet.
 
 
 <br/>
@@ -182,30 +181,28 @@ https://github.com/user-attachments/assets/af3c421a-1494-44e4-b860-a5763cbdb1fd
 
 Pourquoi la plupart des applications d'étude facturent-elles des abonnements mensuels hors de prix ? Parce qu'elles hébergent vos données sur leurs propres serveurs cloud coûteux. **Grâce à son architecture *Zero-Knowledge* qui s'appuie directement sur l'espace privé de votre propre Google Drive, MattAnki n'a aucun frais de serveur mensuel à vous répercuter.**
 
-Vous pouvez découvrir et utiliser MattAnki gratuitement sans limite de durée, puis débloquer l'intégralité du logiciel **à vie** pour le prix d'un café : **3,99 € en paiement unique**.
+Testez l'intégralité des fonctionnalités gratuitement — y compris l'import de vos paquets Anki `.apkg` et le mode **Avancé** — puis débloquez les révisions et créations illimitées **à vie** pour le prix d'un café : **3,99 € en paiement unique**.
 
 ### Comparatif : Version Découverte vs MattAnki Pro (Accès à vie)
 
 | Fonctionnalité | Version Découverte (0 €) | MattAnki Pro (3,99 € — Paiement unique) |
-| :--- | :---: | :---: |
-| **Algorithme de révision quotidien déterministe** | Inclus | **Inclus** |
+| :--- | :--- | :--- |
+| **Algorithme quotidien déterministe & Mode « Avancé »** | Inclus | **Inclus** |
 | **Collage d'images instantané (`Ctrl + V`) & Recherche** | Inclus | **Inclus** |
 | **Planificateur hebdomadaire (« Prévisions »)** | Inclus | **Inclus** |
+| **Importation & Exportation universelle Anki (`.apkg`)** | Inclus (jusqu'à 2 paquets actifs) | **Illimité (Import & Export sans plafond)** |
 | **Nombre de paquets actifs** | Jusqu'à 2 paquets | **Paquets illimités** |
-| **Nombre de cartes mémoire** | Jusqu'à 50 cartes | **Cartes & images illimitées** |
-| **Mode « Avancé » (Forcer les révisions du lendemain / Révision intensive)** | Inclus | **Débloqué en illimité** |
-| **Importation & Exportation universelle Anki (`.apkg`)** | Verrouillé | **Débloqué (Import & Export complets)** |
+| **Création manuelle de cartes mémoire** | Jusqu'à 50 cartes | **Cartes & images illimitées** |
+| **Volume de révisions par paquet** | 50 révisions d'essai / paquet | **Révisions quotidiennes 100 % illimitées** |
 | **Synchronisation multi-appareils (PC, Mac, Linux, iOS, Android)** | Inclus | **Inclus + Déverrouillage Pro automatique via Drive** |
 
 ### Pourquoi 3,99 € est imbattable sur le marché ?
 
 | Solution | Modèle économique | Coût réel pour l'étudiant |
 | :--- | :--- | :--- |
-| **AnkiMobile (iOS)** | Achat unique sur l'App Store | **29,99 €** (uniquement pour iPhone/iPad) |
+| **AnkiMobile (iOS)** | Achat unique sur l'App Store | **29,99 €** (uniquement sur iPhone/iPad) |
 | **Quizlet Plus / Apps SaaS** | Abonnement récurrent | **~35,99 € à 45 € / an** (soit plus de 100 € sur 3 ans d'études) |
 | **MattAnki Pro** | **Paiement unique — Accès à vie** | **3,99 € une seule fois** (valable sur PC, Mac, Linux, iPhone et Android) |
-
-<br/>
 
 ### Comment fonctionne l'achat et l'activation ? (En 30 secondes)
 
@@ -219,20 +216,14 @@ Vous pouvez découvrir et utiliser MattAnki gratuitement sans limite de durée, 
 ```
 
 1. **Paiement 100 % sécurisé via Lemon Squeezy & Stripe :** Cliquez sur le bouton d'achat depuis l'application ou via [la page officielle de commande](https://neplexx-mattanki.lemonsqueezy.com/checkout/buy/1d3cb67f-45f0-4136-8542-e5457ff25e4a). La transaction est traitée par **Lemon Squeezy** (notre *Merchant of Record* officiel propulsé par **Stripe**). Aucune coordonnée bancaire ne transite jamais par MattAnki.
-2. **Clé de licence instantanée :** Dès validation du paiement, votre clé personnelle (`XXXX-XXXX-XXXX-XXXX`) s'affiche immédiatement à l'écran et vous est envoyée par e-mail avec votre facture officielle (garantie à vie en cas de changement d'ordinateur).
-3. **Activation unique & Propagation automatique :** Entrez votre clé une seule fois dans l'onglet **Paramètres** (ou dans la fenêtre MattAnki Pro). Si vous utilisez la synchronisation Google Drive, **votre licence est automatiquement scellée et propagée à votre smartphone et à vos autres ordinateurs** sans même avoir à ressaisir la clé.
+2. **Clé de licence instantanée :** Dès validation du paiement, votre clé personnelle (`XXXX-XXXX-XXXX-XXXX`) s'affiche immédiatement à l'écran et vous est envoyée par e-mail avec votre facture officielle.
+3. **Activation unique & Propagation automatique :** Entrez votre clé une seule fois dans l'onglet **Paramètres** (ou dans la fenêtre MattAnki Pro). Si vous utilisez la synchronisation Google Drive, **votre licence est automatiquement scellée à votre compte et propagée à votre smartphone et à vos autres ordinateurs** sans avoir à ressaisir la clé.
 
 ### Une architecture de licence fiable, résiliente et de confiance
+
 - **Fonctionnement 100 % Hors-Ligne après activation :** Une fois votre clé activée, MattAnki génère une signature cryptographique locale (`SHA-256`). Vous pouvez réviser dans le train, en avion ou dans un amphithéâtre sans aucune connexion Internet : votre statut Pro reste actif en permanence.
 - **Double sauvegarde anti-perte :** Votre licence est sauvegardée simultanément dans le stockage local, dans votre base de données SQLite et dans le conteneur sécurisé `appDataFolder` de votre Google Drive. Même si vous videz le cache de votre navigateur ou changez de téléphone, votre statut Pro se restaure automatiquement.
 - **Gestion libre de vos appareils :** Vous changez d'ordinateur ? Un bouton **Délier la licence** dans les paramètres vous permet de libérer votre emplacement en un clic pour réactiver votre clé sur votre nouvelle machine.
-
-<div align="center">
-<br/>
-
-[![Débloquer MattAnki Pro à vie (3,99 €)](https://img.shields.io/badge/DÉBLOQUER_MATTANKI_PRO_À_VIE-3,99_€_(PAIEMENT_UNIQUE)-7c3aed?style=for-the-badge&labelColor=13111C)](https://neplexx-mattanki.lemonsqueezy.com/checkout/buy/1d3cb67f-45f0-4136-8542-e5457ff25e4a)
-
-</div>
 
 <br/>
 

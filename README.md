@@ -50,7 +50,7 @@ Le moteur de MattAnki remplace les courbes d'oubli opaques par un cycle de valid
    ├── Validation ("Bon" - Touche 2) ─────────► Programmée directement au LENDEMAIN
    │                                            (1 seule validation par jour suffit)
    │
-   ├── Échec ("Revoir" - Touche 1) ───────────► Rappel immédiat (1 min / 10 min)
+   ├── Échec ("Revoir" - Touche 1) ───────────► Rappel immédiat (10 min)
    │                                            jusqu'à maîtrise complète
    │
    └── Maîtrisée ("Ignorer" - Touche 3) ──────► Carte masquée (placée dans "Skipées")
@@ -158,13 +158,13 @@ Sur smartphone, MattAnki fonctionne comme une application native via sa Progress
 ### Organisez vos semaines avec l'onglet « Prévisions »
 L'onglet **Prévisions** agit comme un véritable agenda de révision : assignez précisément quels paquets doivent être travaillés chaque jour de la semaine (Mardi, Mercredi, Jeudi...). Le compteur **Session du jour** suit alors en temps réel la complétion des paquets prévus pour votre journée.
 
-<br/>
+<div align="center">
 
 ### Démonstration — Version Mobile (PWA)
 
 https://github.com/user-attachments/assets/af3c421a-1494-44e4-b860-a5763cbdb1fd
 
-<br/>
+</div>
 
 ---
 

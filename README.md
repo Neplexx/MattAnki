@@ -1,6 +1,23 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=Venom&color=0:0d0b14,45:4c1d95,100:7c3aed&height=210&section=header&text=MATTANKI&fontSize=72&fontColor=ffffff&fontAlignY=50&desc=REVISION%20QUOTIDIENNE%20DETERMINISTE&descSize=16&descAlignY=75" width="100%" alt="MattAnki Banner" />
+<img src="https://capsule-render.vercel.app/api?type=Venom&color=0:0d0b14,45:4c1d95,100:7c3aed&height=210&section=header&text=MATTANKI&fontSize=74&fontColor=ffffff&fontAlignY=48&desc=REVISION%20QUOTIDIENNE%20DETERMINISTE&descSize=16&descAlignY=74" width="100%" alt="MattAnki Banner" />
+
+<p>
+  <a href="#-démo-vidéo">Démo Vidéo</a> &nbsp;&bull;&nbsp;
+  <a href="#-le-socle-gratuit">Socle Gratuit</a> &nbsp;&bull;&nbsp;
+  <a href="#-version-mobile-pwa">Mobile PWA</a> &nbsp;&bull;&nbsp;
+  <a href="#-mattanki-pro">MattAnki Pro</a> &nbsp;&bull;&nbsp;
+  <a href="#-confidentialité--licence">Confidentialité &amp; Licence</a> &nbsp;&bull;&nbsp;
+  <a href="#-téléchargement--installation">Télécharger</a>
+</p>
+
+<br/>
+
+<p>
+  <img src="https://img.shields.io/badge/CYCLE_DETERMINISTE-100%25_SOUS_CONTROLE-7c3aed?style=flat-square" alt="Déterministe" />&nbsp;
+  <img src="https://img.shields.io/badge/ZERO_KNOWLEDGE-GOOGLE_DRIVE-10b981?style=flat-square" alt="Zero Knowledge" />&nbsp;
+  <img src="https://img.shields.io/badge/OFFLINE_FIRST-RUST_%2B_SQLITE-1e1b4b?style=flat-square" alt="Offline First" />
+</p>
 
 <h1>Ne laissez plus un algorithme décider de votre réussite.</h1>
 
@@ -9,34 +26,36 @@
   <b>MattAnki vous garantit de revoir 100 % de vos cartes actives chaque jour jusqu'au jour J.</b>
 </p>
 
+<br/>
+
 <p>
-  <a href="https://neplexx.github.io/MattAnki/"><img src="https://img.shields.io/badge/LANCER_LA_WEB_APP-GRATUIT-7c3aed?style=for-the-badge&labelColor=13111C" alt="Web App" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/neplexx/MattAnki/releases"><img src="https://img.shields.io/badge/TELECHARGER_SUR_PC-WINDOWS_%7C_MAC_%7C_LINUX-9333ea?style=for-the-badge&labelColor=13111C" alt="Desktop" /></a>&nbsp;&nbsp;
-  <a href="https://neplexx-mattanki.lemonsqueezy.com/checkout/buy/1d3cb67f-45f0-4136-8542-e5457ff25e4a"><img src="https://img.shields.io/badge/MATTANKI_PRO-3,99_€_A_VIE-10b981?style=for-the-badge&labelColor=13111C" alt="Pro" /></a>
+  <a href="https://neplexx.github.io/MattAnki/"><img src="https://img.shields.io/badge/LANCER_LA_WEB_APP-GRATUIT-7c3aed?style=for-the-badge&labelColor=13111C" alt="Lancer la Web App" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/neplexx/MattAnki/releases"><img src="https://img.shields.io/badge/TELECHARGER_PC-WIN_%7C_MAC_%7C_LINUX-9333ea?style=for-the-badge&labelColor=13111C" alt="Télécharger sur PC" /></a>&nbsp;&nbsp;
+  <a href="https://neplexx-mattanki.lemonsqueezy.com/checkout/buy/1d3cb67f-45f0-4136-8542-e5457ff25e4a"><img src="https://img.shields.io/badge/MATTANKI_PRO-3,99_€_A_VIE-10b981?style=for-the-badge&labelColor=13111C" alt="MattAnki Pro 3,99 € à vie" /></a>
 </p>
 
 <br/>
 
-<img src="assets/accueil.png" width="52%" alt="MattAnki Interface Mobile" />
+<img src="assets/accueil.png" width="100%" alt="MattAnki — Rendu Mobile Blender" />
 
 </div>
 
 <br/>
-<br/>
 
+<!-- BARRE DE VALEURS EN 3 COLONNES -->
 <table width="100%">
   <tr>
-    <td width="33%" valign="top">
-      <h3 align="center">100 % Déterministe</h3>
-      <p align="center">Fini les cartes programmées un mois après votre partiel. Chaque paquet actif est travaillé <b>intégralement tous les jours</b> jusqu'au jour J, avec un bouton <b>Avancé</b> pour réviser hors-planning à volonté.</p>
+    <td width="33%" valign="top" align="center">
+      <h3>100 % Déterministe</h3>
+      <p>Fini les cartes programmées un mois après votre partiel. Chaque paquet actif est travaillé <b>intégralement tous les jours</b> jusqu'au jour J, avec bouton <b>Avancé</b> hors-planning.</p>
     </td>
-    <td width="33%" valign="top">
-      <h3 align="center">Socle Complet Gratuit</h3>
-      <p align="center">Créez vos cartes, collez vos schémas en direct avec <kbd>Ctrl</kbd> + <kbd>V</kbd>, importez vos paquets Anki <code>.apkg</code> et synchronisez vos appareils via <b>Google Drive</b> dès la version gratuite.</p>
+    <td width="33%" valign="top" align="center">
+      <h3>Socle Complet Gratuit</h3>
+      <p>Créez vos cartes, collez vos schémas en direct avec <kbd>Ctrl</kbd>+<kbd>V</kbd>, importez vos paquets Anki <code>.apkg</code> et synchronisez via <b>Google Drive</b> dès la version gratuite.</p>
     </td>
-    <td width="33%" valign="top">
-      <h3 align="center">Option Pro à 3,99 € à vie</h3>
-      <p align="center">Besoin de passer à la vitesse supérieure ? Débloquez les <b>Examens Blancs notés sur 20</b>, l'<b>Import IA</b> en masse, les <b>Textes à trous</b> et les révisions illimitées en un <b>paiement unique</b>.</p>
+    <td width="33%" valign="top" align="center">
+      <h3>Pro à 3,99 € à vie</h3>
+      <p>Débloquez les <b>Examens Blancs notés sur 20</b>, l'<b>Import IA</b> en masse, les <b>Textes à trous</b> et l'illimité en un <b>paiement unique</b> sans abonnement.</p>
     </td>
   </tr>
 </table>
@@ -45,79 +64,115 @@
 
 ---
 
+<!-- VIDEO PC PLEINE LARGEUR (TETE D'AFFICHE) -->
 <div align="center">
-  <h2>1. Le Socle MattAnki — Inclus gratuitement dès l'installation</h2>
+  <p><img src="https://img.shields.io/badge/APPLICATION_NATIVES-WINDOWS_%7C_MACOS_%7C_LINUX-7c3aed?style=flat-square" alt="Desktop" /></p>
+  <h2 id="-démo-vidéo">MattAnki sur Ordinateur — En Action</h2>
+  <p>Propulsé par <b>Rust</b> et <b>Tauri v2</b> (&lt; 50 Mo RAM) avec base de données <b>SQLite</b> locale ultra-rapide.</p>
+</div>
+
+<br/>
+
+https://github.com/user-attachments/assets/04562486-227f-4f94-becc-a1a82fda2b4e
+
+<br/>
+
+---
+
+<div align="center">
+  <h2 id="-le-socle-gratuit">1. Le Socle MattAnki — Inclus gratuitement</h2>
   <p>Tout ce dont vous avez besoin au quotidien pour créer, illustrer et synchroniser vos révisions sans débourser un centime.</p>
 </div>
 
+<br/>
+
+<!-- FEATURE 1 : COLLAGE CTRL+V & CARTES SKIPEES -->
 <table width="100%">
   <tr>
-    <td width="65%" valign="middle" align="center">
+    <td width="62%" valign="middle" align="center">
       <img src="assets/ordi2.png" width="100%" alt="Collage d'images Ctrl+V et gestion des cartes" />
     </td>
-    <td width="35%" valign="middle">
-      <p><img src="https://img.shields.io/badge/INCLUS_GRATUITEMENT-10b981?style=flat-square" alt="Gratuit" /></p>
-      <h3>Collage d'images direct (<kbd>Ctrl</kbd> + <kbd>V</kbd>) et Cartes Skipées</h3>
+    <td width="38%" valign="middle">
+      <p><img src="https://img.shields.io/badge/SOCLE_GRATUIT-10b981?style=flat-square" alt="Gratuit" /></p>
+      <h3>Collage d'images direct (<kbd>Ctrl</kbd>+<kbd>V</kbd>) &amp; Cartes Skipées</h3>
       <p><b>Illustrez vos cours à la vitesse de l'éclair.</b></p>
-      <p>Prenez une capture d'écran de votre polycopié ou d'un schéma d'anatomie et faites directement <kbd>Ctrl</kbd> + <kbd>V</kbd> dans la Question ou la Réponse, sans enregistrer de fichier intermédiaire.</p>
-      <p>Une carte est désormais connue sur le bout des doigts ? Écartez-la d'une touche vers l'onglet <b>Skipées</b> pour alléger vos séances tout en pouvant la réactiver à tout moment.</p>
+      <ul>
+        <li>Capturez un schéma de polycopié et faites <kbd>Ctrl</kbd>+<kbd>V</kbd> directement dans la Question ou la Réponse, sans enregistrer de fichier.</li>
+        <li>Carte connue sur le bout des doigts ? Écartez-la d'une touche vers l'onglet <b>Skipées</b> pour alléger vos séances, tout en restant réactivable en 1 clic.</li>
+      </ul>
     </td>
   </tr>
 </table>
 
+<br/>
+
+<!-- FEATURE 2 : REVISION CLAVIER & MODE AVANCE -->
 <table width="100%">
   <tr>
-    <td width="35%" valign="middle">
-      <p><img src="https://img.shields.io/badge/INCLUS_GRATUITEMENT-10b981?style=flat-square" alt="Gratuit" /></p>
-      <h3>Révision pilotée au clavier et Mode Avancé</h3>
+    <td width="38%" valign="middle">
+      <p><img src="https://img.shields.io/badge/SOCLE_GRATUIT-10b981?style=flat-square" alt="Gratuit" /></p>
+      <h3>Révision pilotée au clavier &amp; Mode Avancé</h3>
       <p><b>Zéro distraction. Uniquement vous et votre cours.</b></p>
-      <p>Enchaînez vos cartes sans toucher à la souris : <kbd>Espace</kbd> pour retourner la carte, <kbd>1</kbd> pour <b>Revoir dans 10 minutes</b>, <kbd>2</kbd> pour <b>Valider à demain</b>, et <kbd>3</kbd> pour <b>Ignorer</b>.</p>
-      <blockquote><b>Le bouton Avancé :</b> Envie de prendre de l'avance ou de refaire un tour complet du paquet la veille du partiel ? Débloquez la session du lendemain en un clic.</blockquote>
+      <ul>
+        <li><kbd>Espace</kbd> : retourner la carte</li>
+        <li><kbd>1</kbd> : <b>Revoir dans 10 minutes</b></li>
+        <li><kbd>2</kbd> : <b>Valider à demain</b></li>
+        <li><kbd>3</kbd> : <b>Ignorer (Skip)</b></li>
+      </ul>
+      <blockquote>
+        <b>Bouton Avancé :</b> Envie de prendre de l'avance ou de refaire un tour complet la veille du partiel ? Débloquez la session du lendemain en un clic.
+      </blockquote>
     </td>
-    <td width="65%" valign="middle" align="center">
+    <td width="62%" valign="middle" align="center">
       <img src="assets/ordi3.png" width="100%" alt="Session de révision au clavier" />
     </td>
   </tr>
 </table>
 
+<br/>
+
+<!-- FEATURE 3 : COMPATIBILITE ANKI & GOOGLE DRIVE -->
 <table width="100%">
   <tr>
-    <td width="65%" valign="middle" align="center">
+    <td width="62%" valign="middle" align="center">
       <img src="assets/ordi4.png" width="100%" alt="Synchronisation Cloud et fichiers Anki .apkg" />
     </td>
-    <td width="35%" valign="middle">
-      <p><img src="https://img.shields.io/badge/INCLUS_GRATUITEMENT-10b981?style=flat-square" alt="Gratuit" /></p>
-      <h3>Compatibilité Anki (<code>.apkg</code>) et Synchro Google Drive</h3>
+    <td width="38%" valign="middle">
+      <p><img src="https://img.shields.io/badge/SOCLE_GRATUIT-10b981?style=flat-square" alt="Gratuit" /></p>
+      <h3>Compatibilité Anki (<code>.apkg</code>) &amp; Synchro Google Drive</h3>
       <p><b>Vos paquets vous suivent partout, en toute confidentialité.</b></p>
-      <p>Importez directement les paquets Anki (<code>.apkg</code>) partagés par votre fac ou votre prépa et exportez vos propres créations pour vos camarades.</p>
-      <p>Reliez votre compte <b>Google Drive</b> en un clic : vos paquets, vos images et votre progression sont sauvegardés dans votre espace privé <code>appDataFolder</code> entre votre PC et votre téléphone.</p>
+      <ul>
+        <li>Importez les paquets Anki (<code>.apkg</code>) de votre fac ou prépa et exportez vos créations pour vos camarades.</li>
+        <li>Reliez <b>Google Drive</b> en un clic : paquets, images et progression sont sauvegardés dans votre espace privé <code>appDataFolder</code> entre PC et mobile.</li>
+      </ul>
     </td>
   </tr>
 </table>
 
 <br/>
 
+<!-- MOBILE PWA SHOWCASE -->
 <div align="center">
-  <h3>Également inclus gratuitement sur Smartphone (iOS & Android)</h3>
-  <p>Installez la Web App sur votre écran d'accueil pour réviser dans les transports, hors-ligne, avec gestes tactiles et agenda hebdomadaire.</p>
+  <h3 id="-version-mobile-pwa">Également inclus gratuitement sur Smartphone (iOS &amp; Android)</h3>
+  <p>Installez la Web App sur votre écran d'accueil pour réviser hors-ligne dans les transports.</p>
 </div>
 
 <table width="100%">
   <tr>
     <td width="33%" align="center" valign="top">
+      <img src="assets/tel2.jpg" width="90%" alt="Révision tactile mobile" />
       <h4>Gestes Tactiles Intuitifs</h4>
-      <img src="assets/tel2.jpg" width="95%" alt="Révision tactile mobile" />
-      <p>Glissez la carte vers la gauche pour <b>Revoir (10 min)</b> ou vers la droite pour <b>Valider (Demain)</b>.</p>
+      <p>Glissez à gauche pour <b>Revoir (10 min)</b> ou à droite pour <b>Valider (Demain)</b>.</p>
     </td>
     <td width="33%" align="center" valign="top">
-      <h4>Édition & Tri Mobile</h4>
-      <img src="assets/tel3.jpg" width="95%" alt="Modification de paquet mobile" />
-      <p>Recherchez un mot-clé instantanément, modifiez vos cartes et gérez vos cartes <b>Actives</b> et <b>Skipées</b>.</p>
+      <img src="assets/tel3.jpg" width="90%" alt="Modification de paquet mobile" />
+      <h4>Édition &amp; Tri Mobile</h4>
+      <p>Recherche instantanée par mot-clé, édition rapide et gestion des cartes <b>Actives / Skipées</b>.</p>
     </td>
     <td width="33%" align="center" valign="top">
+      <img src="assets/tel4.png" width="90%" alt="Planning de révision mobile" />
       <h4>Agenda (« Prévisions »)</h4>
-      <img src="assets/tel4.png" width="95%" alt="Planning de révision mobile" />
-      <p>Planifiez quels paquets réviser chaque jour de la semaine et suivez votre barre d'objectif quotidien.</p>
+      <p>Planifiez vos paquets sur la semaine et suivez votre barre d'objectif quotidien.</p>
     </td>
   </tr>
 </table>
@@ -126,185 +181,166 @@
 
 ---
 
+<!-- SECTION PRO : HERO BLENDER PRO.PNG -->
 <div align="center">
-  <h2>2. Passez à la vitesse supérieure avec MattAnki Pro</h2>
+  <p><img src="https://img.shields.io/badge/PAIEMENT_UNIQUE-3,99_€_A_VIE-7c3aed?style=for-the-badge&labelColor=13111C" alt="3,99 € à vie" /></p>
+  <h2 id="-mattanki-pro">2. Passez à la vitesse supérieure avec MattAnki Pro</h2>
   <p>
-    La version gratuite vous permet de tester l'intégralité du socle (jusqu'à 2 paquets actifs, 50 cartes créées et 50 révisions d'essai par paquet).<br/>
-    <b>Pour 3,99 € en paiement unique (sans abonnement), débloquez le tout en illimité ainsi que 3 accélérateurs exclusifs :</b>
+    Testez l'intégralité du socle gratuitement (jusqu'à 2 paquets actifs, 50 cartes créées et 50 révisions d'essai par paquet).<br/>
+    <b>Pour 3,99 € en paiement unique (sans abonnement), débloquez l'illimité et 3 accélérateurs exclusifs :</b>
   </p>
   <br/>
   <a href="https://neplexx-mattanki.lemonsqueezy.com/checkout/buy/1d3cb67f-45f0-4136-8542-e5457ff25e4a">
-    <img src="assets/Pro.png" width="92%" alt="Présentation MattAnki Pro" />
+    <img src="assets/Pro.png" width="96%" alt="Présentation MattAnki Pro — Rendu Blender" />
   </a>
 </div>
 
 <br/>
 
+<!-- PRO FEATURE 1 : EXAMEN BLANC -->
 <table width="100%">
   <tr>
-    <td width="65%" valign="middle" align="center">
+    <td width="62%" valign="middle" align="center">
       <img src="assets/exam.png" width="100%" alt="Mode Examen Blanc noté sur 20" />
     </td>
-    <td width="35%" valign="middle">
-      <p><img src="https://img.shields.io/badge/EXCLUSIVITE_MATTANKI_PRO-7c3aed?style=flat-square" alt="Pro" /></p>
+    <td width="38%" valign="middle">
+      <p><img src="https://img.shields.io/badge/EXCLUSIVITE_PRO-7c3aed?style=flat-square" alt="Pro" /></p>
       <h3>Mode Examen Blanc noté sur 20</h3>
       <p><b>Testez-vous dans les conditions réelles du partiel.</b></p>
-      <p>Lancez une épreuve tirant au sort <b>10, 20 ou 50 questions</b> de votre paquet avec un <b>chronomètre optionnel</b> par carte (15s, 30s, 60s).</p>
-      <p>À la fin du test, MattAnki affiche votre <b>note finale sur 20</b>, votre temps de réponse moyen et regroupe toutes vos erreurs pour vous permettre de <b>rejouer uniquement les cartes ratées</b> — sans jamais dérégler votre planning quotidien.</p>
+      <ul>
+        <li>Tirage aléatoire de <b>10, 20 ou 50 questions</b> avec chronomètre optionnel par carte (15s, 30s, 60s).</li>
+        <li><b>Note finale sur 20</b>, temps moyen par réponse et mode <b>rejouer uniquement les erreurs</b> — sans jamais dérégler votre planning quotidien.</li>
+      </ul>
     </td>
   </tr>
 </table>
 
+<br/>
+
+<!-- PRO FEATURE 2 : IMPORT IA -->
 <table width="100%">
   <tr>
-    <td width="35%" valign="middle">
-      <p><img src="https://img.shields.io/badge/EXCLUSIVITE_MATTANKI_PRO-7c3aed?style=flat-square" alt="Pro" /></p>
-      <h3>Import IA et Texte en un clic</h3>
+    <td width="38%" valign="middle">
+      <p><img src="https://img.shields.io/badge/EXCLUSIVITE_PRO-7c3aed?style=flat-square" alt="Pro" /></p>
+      <h3>Import IA &amp; Texte en un clic</h3>
       <p><b>Transformez votre cours en 50 cartes en dix secondes.</b></p>
-      <p>Copiez le <b>prompt IA pré-configuré</b> directement depuis l'application, donnez votre cours à <b>ChatGPT ou Claude</b>, et collez le résultat dans MattAnki.</p>
-      <p>Le moteur détecte automatiquement le format (point-virgule, tabulation <b>Quizlet</b> ou <b>Excel</b>), affiche un aperçu en direct et génère l'intégralité de votre paquet instantanément.</p>
+      <ul>
+        <li>Copiez le <b>prompt IA pré-configuré</b> intégré, donnez votre cours à <b>ChatGPT ou Claude</b>, et collez le résultat.</li>
+        <li>Détection automatique du format (point-virgule, tabulation <b>Quizlet</b> ou <b>Excel</b>) avec aperçu en direct avant création.</li>
+      </ul>
     </td>
-    <td width="65%" valign="middle" align="center">
+    <td width="62%" valign="middle" align="center">
       <img src="assets/import.png" width="100%" alt="Import rapide IA et Texte" />
     </td>
   </tr>
 </table>
 
+<br/>
+
+<!-- PRO FEATURE 3 : TEXTES A TROUS -->
 <table width="100%">
   <tr>
-    <td width="65%" valign="middle" align="center">
+    <td width="62%" valign="middle" align="center">
       <img src="assets/trou.png" width="100%" alt="Textes à trous rapides" />
     </td>
-    <td width="35%" valign="middle">
-      <p><img src="https://img.shields.io/badge/EXCLUSIVITE_MATTANKI_PRO-7c3aed?style=flat-square" alt="Pro" /></p>
-      <h3>Textes à trous rapides (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>)</h3>
+    <td width="38%" valign="middle">
+      <p><img src="https://img.shields.io/badge/EXCLUSIVITE_PRO-7c3aed?style=flat-square" alt="Pro" /></p>
+      <h3>Textes à trous rapides (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>)</h3>
       <p><b>Idéal pour les définitions exactes, formules et articles de loi.</b></p>
-      <p>Surlignez n'importe quel mot-clé pendant la rédaction d'une carte et cliquez sur <b><code>[...] Texte à trou</code></b>.</p>
-      <p>MattAnki génère automatiquement la réponse associée et transforme le mot ciblé en badge masqué pendant vos révisions.</p>
+      <ul>
+        <li>Surlignez n'importe quel mot-clé et cliquez sur <b><code>[...] Texte à trou</code></b>.</li>
+        <li>MattAnki génère automatiquement la réponse associée et transforme le mot ciblé en badge masqué pendant vos révisions.</li>
+      </ul>
     </td>
   </tr>
 </table>
 
 <br/>
 
-### Récapitulatif : Version Découverte vs MattAnki Pro
+### Comparatif : Version Découverte vs MattAnki Pro
 
-| Fonctionnalité | Version Découverte (0 €) | MattAnki Pro (3,99 € — Paiement unique) |
+| Fonctionnalité | Découverte (0 €) | MattAnki Pro (3,99 € à vie) |
 | :--- | :--- | :--- |
-| **Cycle quotidien déterministe et Mode Avancé** | **Inclus gratuitement** | **Inclus** |
-| **Collage d'images instantané (`Ctrl + V`) et Recherche** | **Inclus gratuitement** | **Inclus** |
-| **Planificateur hebdomadaire (Prévisions)** | **Inclus gratuitement** | **Inclus** |
-| **Synchronisation Cloud (PC, Mac, Linux, iOS, Android)** | **Inclus gratuitement** | **Inclus + Propagation Pro auto via Drive** |
-| **Importation et Exportation Anki (`.apkg`)** | **Inclus** (jusqu'à 2 paquets) | **Illimité (sans aucun plafond)** |
+| **Cycle quotidien déterministe &amp; Mode Avancé** | Inclus gratuitement | **Inclus** |
+| **Collage d'images (`Ctrl + V`) &amp; Recherche** | Inclus gratuitement | **Inclus** |
+| **Planificateur hebdomadaire (Prévisions)** | Inclus gratuitement | **Inclus** |
+| **Synchronisation Cloud (PC, Mac, Linux, iOS, Android)** | Inclus gratuitement | **Inclus + Propagation Pro auto via Drive** |
+| **Import / Export Anki (`.apkg`)** | Jusqu'à 2 paquets | **Illimité (sans aucun plafond)** |
 | **Nombre de paquets actifs** | Jusqu'à 2 paquets | **Paquets illimités** |
 | **Création manuelle de cartes** | Jusqu'à 50 cartes | **Cartes et images illimitées** |
-| **Volume de révisions par paquet** | 50 révisions d'essai par paquet | **Révisions quotidiennes 100 % illimitées** |
-| **Mode Examen Blanc chronométré et Note sur 20** | Non inclus | **Inclus (avec relecture ciblée des erreurs)** |
-| **Import rapide en masse (ChatGPT, Claude, Quizlet)** | Non inclus | **Inclus (avec prompt IA intégré)** |
-| **Création de Textes à trous rapides (`[...]`)** | Lecture seule | **Création en un clic (`Ctrl + Shift + C`)** |
+| **Volume de révisions par paquet** | 50 révisions d'essai / paquet | **Révisions quotidiennes 100 % illimitées** |
+| **Mode Examen Blanc chronométré &amp; Note sur 20** | — | **Inclus (relecture ciblée des erreurs)** |
+| **Import rapide en masse (ChatGPT, Claude, Quizlet)** | — | **Inclus (prompt IA intégré)** |
+| **Création de Textes à trous (`[...]`)** | Lecture seule | **Création en 1 clic (`Ctrl + Shift + C`)** |
 
 <br/>
-
----
 
 <div align="center">
-  <h2>Démonstrations Vidéo (Bureau & Mobile)</h2>
-  <p>Découvrez la fluidité de l'application en conditions réelles sur ordinateur et sur smartphone.</p>
-</div>
-
-<br/>
-
-<h4 align="center">Version Bureau (Windows, macOS, Linux — Tauri / Rust)</h4>
-
-https://github.com/user-attachments/assets/0d6e7c0c-3ac6-4030-94bd-3760a98e547f
-
-<br/>
-
-<h4 align="center">Version Mobile (iOS & Android — Progressive Web App)</h4>
-
-<table width="100%">
-  <tr>
-    <td width="25%"></td>
-    <td width="50%" align="center">
-
-https://github.com/user-attachments/assets/7815717c-0f34-47ee-98c1-368ba7b5c08b
-
-</td>
-    <td width="25%"></td>
-  </tr>
-</table>
-
-<br/>
-
----
-
-<div align="center">
-  <h2>Achat, Activation et Sécurité de votre Licence</h2>
-  <p>Un modèle économique transparent, sans abonnement caché, pensé pour protéger vos révisions et votre budget étudiant.</p>
-</div>
-
-```text
-1. PAIEMENT SÉCURISÉ (3,99 €)          2. ACTIVATION SUR 1 APPAREIL          3. SYNCHRO AUTOMATIQUE PARTOUT
-
-┌──────────────────────────────┐      ┌──────────────────────────────┐      ┌──────────────────────────────┐
-│ Page officielle LemonSqueezy │      │ Onglet Paramètres > Licence  │      │ Connexion Google Drive       │
-│ (Stripe / PayPal / ApplePay) │ ───► │ Saisie de la clé reçue :     │ ───► │ Votre téléphone et votre PC  │
-│ Réception immédiate de la clé│      │ XXXX-XXXX-XXXX-XXXX          │      │ passent en Pro tout seuls !  │
-└──────────────────────────────┘      └──────────────────────────────┘      └──────────────────────────────┘
-```
-
-### Comment fonctionnent le paiement et votre clé MattAnki Pro ?
-
-1. **Paiement 100 % sécurisé via Lemon Squeezy et Stripe :** Cliquez sur le bouton d'achat depuis l'application ou via [la page officielle de commande](https://neplexx-mattanki.lemonsqueezy.com/checkout/buy/1d3cb67f-45f0-4136-8542-e5457ff25e4a). La transaction est traitée par **Lemon Squeezy** (notre *Merchant of Record* officiel propulsé par **Stripe**). Aucune coordonnée bancaire ne transite jamais par MattAnki.
-2. **Clé de licence instantanée :** Dès la validation du paiement unique de **3,99 €**, votre clé d'activation personnelle (`XXXX-XXXX-XXXX-XXXX`) s'affiche immédiatement à l'écran et vous est envoyée par e-mail avec votre facture officielle.
-3. **Activation unique et propagation automatique :** Entrez votre clé une seule fois dans l'onglet **Paramètres** (ou dans la fenêtre MattAnki Pro). Si vous utilisez la synchronisation Google Drive, **votre licence est automatiquement scellée à votre compte et propagée à votre smartphone et à vos autres ordinateurs** sans avoir à ressaisir la clé.
-4. **Fonctionnement 100 % Hors-Ligne après activation :** Une fois votre clé validée, MattAnki génère une signature cryptographique locale (`SHA-256`). Vous pouvez réviser dans le train, en avion ou dans un amphithéâtre sans aucune connexion Internet : votre statut Pro reste actif en permanence.
-5. **Double sauvegarde anti-perte et liberté d'appareil :** Votre licence est enregistrée simultanément dans votre base SQLite locale et dans le conteneur sécurisé `appDataFolder` de votre Google Drive. Même si vous videz le cache de votre navigateur ou changez de téléphone, votre statut Pro se restaure tout seul. Vous changez d'ordinateur ? Le bouton **Délier la licence** libère votre emplacement en un clic.
 
 | Solution du marché | Modèle économique | Coût réel pour l'étudiant |
 | :--- | :--- | :--- |
-| **AnkiMobile (iOS)** | Achat unique sur l'App Store | **29,99 €** (valable uniquement sur iPhone/iPad) |
-| **Quizlet Plus / Apps SaaS** | Abonnement récurrent | **35,99 € à 45 € / an** (plus de 100 € sur 3 ans d'études) |
-| **MattAnki Pro** | **Paiement unique — Accès à vie** | **3,99 € une seule fois** (PC, Mac, Linux, iPhone et Android) |
+| **AnkiMobile (iOS)** | Achat unique App Store | **29,99 €** (iPhone / iPad uniquement) |
+| **Quizlet Plus / Apps SaaS** | Abonnement récurrent | **35,99 € à 45 € / an** (&gt; 100 € sur 3 ans) |
+| **MattAnki Pro** | **Paiement unique — Accès à vie** | **3,99 € une seule fois** (PC, Mac, Linux, iOS, Android) |
 
-<br/>
-
----
-
-<div align="center">
-  <h2>Synchronisation Google Drive « Zero-Knowledge » & Confidentialité</h2>
-  <p>Vos cours, vos fiches et vos images vous appartiennent à 100 %. MattAnki n'a aucun serveur intermédiaire et ne peut jamais lire vos données.</p>
 </div>
 
-```text
-[ Application PC (Tauri / Rust) ]  ◄──────┐
-                                           │
-                                           ▼
-                          [ Google Drive : appDataFolder ]
-                          (Espace isolé, chiffré et privé)
-                                           ▲
-                                           │
-[ Web App / Mobile PWA (SQLite) ]  ◄──────┘
-```
+<br/>
 
-### Pourquoi vos données sont-elles totalement privées et sécurisées ?
+---
 
-- **Architecture directe sans serveur tiers (*Zero-Knowledge*) :** Contrairement aux applications classiques qui stockent vos cartes sur leurs propres bases de données privées, MattAnki synchronise directement vos appareils entre eux via **votre propre compte Google Drive**. En tant que développeur de l'application, **je n'ai techniquement aucun accès à vos paquets, à vos cartes ni à vos fichiers.**
-- **Isolation stricte dans le conteneur `appDataFolder` :** Lors de la connexion Google, MattAnki demande uniquement la permission restreinte `drive.appdata`. Cela signifie que l'application travaille dans un dossier système caché et isolé (`appDataFolder`) créé par Google exclusivement pour MattAnki. **MattAnki ne peut ni voir, ni lire, ni modifier aucun de vos documents, photos ou fichiers personnels présents sur votre Google Drive.**
-- **Pourquoi MattAnki Pro ne coûte que 3,99 € à vie :** C'est précisément parce que la synchronisation s'appuie sur votre propre espace Google Drive que MattAnki n'a aucun coût de serveur cloud mensuel à vous refacturer sous forme d'abonnement.
-- **Moteur natif ultra-rapide et 100 % Offline :** Sur ordinateur, MattAnki tourne nativement grâce à **Rust** et **Tauri v2** (moins de 50 Mo de RAM) avec une base de données **SQLite** locale en mode WAL. Sur navigateur et mobile, vos cartes sont stockées localement via **SQLite WebAssembly / IndexedDB**, vous permettant de réviser instantanément même sans réseau.
+<div align="center">
+  <h2 id="-confidentialité--licence">Confidentialité « Zero-Knowledge » &amp; Licence Pro</h2>
+  <p>Vos cours vous appartiennent à 100 %. MattAnki n'a aucun serveur intermédiaire et ne peut jamais lire vos données.</p>
+</div>
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Architecture Google Drive Privée</h3>
+      <pre>
+[ App PC (Tauri / Rust) ] ◄──────┐
+                                 ▼
+              [ Google Drive : appDataFolder ]
+              (Conteneur isolé, privé, caché)
+                                 ▲
+[ Web / PWA (SQLite WASM) ] ◄────┘</pre>
+      <ul>
+        <li><b>Aucun serveur tiers :</b> vos données transitent uniquement entre vos appareils et votre propre Google Drive.</li>
+        <li><b>Permission restreinte <code>drive.appdata</code> :</b> MattAnki ne peut ni voir, ni modifier vos autres fichiers Drive.</li>
+        <li><b>C'est pour cela que Pro coûte 3,99 € à vie :</b> zéro coût de serveur cloud mensuel à vous refacturer.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Activation &amp; Sécurité de la Licence</h3>
+      <pre>
+1. Paiement LemonSqueezy (3,99 €)
+   │  (Stripe / PayPal / Apple Pay)
+   ▼
+2. Clé instantanée : XXXX-XXXX-XXXX-XXXX
+   │  (Paramètres &gt; Licence)
+   ▼
+3. Propagation auto via Drive + Offline SHA-256</pre>
+      <ul>
+        <li><b>100 % Hors-Ligne après activation :</b> signature cryptographique locale (<code>SHA-256</code>) active en avion ou en amphi.</li>
+        <li><b>Multi-appareils automatique :</b> connectez Google Drive et votre téléphone passe en Pro tout seul.</li>
+        <li><b>Double sauvegarde :</b> SQLite locale + <code>appDataFolder</code>, avec bouton <b>Délier la licence</b> en 1 clic.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
 ---
 
 <div align="center">
-  <h2>Téléchargement & Installation</h2>
+  <h2 id="-téléchargement--installation">Téléchargement &amp; Installation</h2>
 </div>
 
 | Plateforme | Format | Lien direct |
 | :--- | :--- | :--- |
-| **Navigateur & Mobile (PWA)** | Application Web progressive (iOS, Android, PC) | [**Ouvrir neplexx.github.io/MattAnki**](https://neplexx.github.io/MattAnki/) |
+| **Navigateur &amp; Mobile (PWA)** | Application Web progressive (iOS, Android, PC) | [**Ouvrir neplexx.github.io/MattAnki**](https://neplexx.github.io/MattAnki/) |
 | **Windows** | Installateur `.exe` / `.msi` | [**Télécharger depuis GitHub Releases**](https://github.com/neplexx/MattAnki/releases) |
 | **macOS** | Image disque `.dmg` | [**Télécharger depuis GitHub Releases**](https://github.com/neplexx/MattAnki/releases) |
 | **Linux** | Paquets `.deb` / `.AppImage` | [**Télécharger depuis GitHub Releases**](https://github.com/neplexx/MattAnki/releases) |
@@ -312,17 +348,13 @@ https://github.com/user-attachments/assets/7815717c-0f34-47ee-98c1-368ba7b5c08b
 
 <br/>
 
----
-
 <details>
 <summary><b>Spécifications du Protocole de Révision Quotidienne (Comparatif Anki SM-2 vs MattAnki) — Cliquer pour dérouler</b></summary>
 <br/>
 
-### Pourquoi remplacer l'espacement exponentiel par un cycle quotidien ?
+Les algorithmes d'espacement exponentiel (SM-2, FSRS) sont pensés pour étaler l'apprentissage sur plusieurs années : avant un partiel, **une carte réussie est repoussée à 15 ou 30 jours, sautant les derniers jours critiques précédant l'épreuve.**
 
-Les logiciels de répétition espacée traditionnels comme Anki reposent sur des algorithmes d'espacement exponentiel (SM-2, FSRS). Conçus pour étaler l'apprentissage sur plusieurs années, ils deviennent contre-productifs lorsqu'il s'agit de préparer un partiel ou un concours à court terme : **une carte réussie est repoussée à 15 ou 30 jours, sautant ainsi les derniers jours critiques précédant l'épreuve.**
-
-Le moteur de MattAnki remplace les courbes d'oubli opaques par un **double ancrage le premier jour**, suivi d'une **consolidation quotidienne directe** :
+MattAnki remplace les courbes d'oubli opaques par un **double ancrage le premier jour**, suivi d'une **consolidation quotidienne directe** :
 
 ```text
 [ JOUR 1 : DÉCOUVERTE & ANCRAGE ]
@@ -359,13 +391,14 @@ Le moteur de MattAnki remplace les courbes d'oubli opaques par un **double ancra
 
 <br/>
 
----
-
 <div align="center">
 
 [**Politique de confidentialité**](https://neplexx.github.io/MattAnki/privacy) &nbsp;&bull;&nbsp; [**Conditions d'utilisation**](https://neplexx.github.io/MattAnki/terms) &nbsp;&bull;&nbsp; [**Obtenir MattAnki Pro (3,99 €)**](https://neplexx-mattanki.lemonsqueezy.com/checkout/buy/1d3cb67f-45f0-4136-8542-e5457ff25e4a)
 
+<br/>
+
 <sub>MattAnki — Application disponible en version Découverte gratuite et Licence Pro à vie. Tous droits réservés.</sub>
 
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0b14,45:4c1d95,100:7c3aed&height=110&section=footer" width="100%" alt="Footer" />
 
+</div>

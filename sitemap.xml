@@ -4,16 +4,4 @@
     <loc>https://mattanki.fr/welcome</loc>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://mattanki.fr/welcome/download</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mattanki.fr/terms</loc>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://mattanki.fr/privacy</loc>
-    <priority>0.4</priority>
-  </url>
 </urlset>

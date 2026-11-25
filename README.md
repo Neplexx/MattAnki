@@ -5,7 +5,7 @@
 <p>
   <a href="#-démo-vidéo">Démo Vidéo</a> &nbsp;&bull;&nbsp;
   <a href="#-fonctionnalités-incluses">Fonctionnalités</a> &nbsp;&bull;&nbsp;
-  <a href="#-version-mobile-pwa">Mobile PWA</a> &nbsp;&bull;&nbsp;
+  <a href="#-raccourcis--mode-avancé">Raccourcis</a> &nbsp;&bull;&nbsp;
   <a href="#-gratuit-vs-pro">Gratuit vs Pro</a> &nbsp;&bull;&nbsp;
   <a href="#-confidentialité--licence">Confidentialité &amp; Licence</a> &nbsp;&bull;&nbsp;
   <a href="#-téléchargement--installation">Télécharger</a>
@@ -14,6 +14,7 @@
 <br/>
 
 <p>
+  <img src="https://img.shields.io/badge/VERSION-v1.2.0-9333ea?style=flat-square" alt="Version v1.2.0" />&nbsp;
   <img src="https://img.shields.io/badge/CYCLE_DETERMINISTE-100%25_SOUS_CONTROLE-7c3aed?style=flat-square" alt="Déterministe" />&nbsp;
   <img src="https://img.shields.io/badge/ZERO_KNOWLEDGE-GOOGLE_DRIVE-10b981?style=flat-square" alt="Zero Knowledge" />&nbsp;
   <img src="https://img.shields.io/badge/OFFLINE_FIRST-RUST_%2B_SQLITE-1e1b4b?style=flat-square" alt="Offline First" />
@@ -47,7 +48,7 @@
   <tr>
     <td width="33%" valign="top" align="center">
       <h3>100 % Déterministe</h3>
-      <p>Fini les cartes programmées un mois après votre partiel. Chaque paquet actif est travaillé <b>intégralement tous les jours</b> jusqu'au jour J, avec bouton <b>Avancé</b> hors-planning.</p>
+      <p>Fini les cartes programmées un mois après votre partiel. Chaque paquet actif est travaillé <b>intégralement tous les jours</b> jusqu'au jour J, avec <b>Points faibles</b> et bouton <b>Avancé</b>.</p>
     </td>
     <td width="33%" valign="top" align="center">
       <h3>100 % des outils gratuits</h3>
@@ -64,15 +65,16 @@
 
 ---
 
-<!-- VIDEO PC PLEINE LARGEUR (TETE D'AFFICHE) -->
+<!-- VIDEO PLEINE LARGEUR -->
 <div align="center">
   <p><img src="https://img.shields.io/badge/APPLICATIONS_NATIVES-WINDOWS_%7C_MACOS_%7C_LINUX-7c3aed?style=flat-square" alt="Desktop" /></p>
-  <h2 id="-démo-vidéo">MattAnki sur Ordinateur : En Action</h2>
+  <h2 id="-démo-vidéo">MattAnki v1.2.0 : En Action</h2>
   <p>Propulsé par <b>Rust</b> et <b>Tauri v2</b> (&lt; 50 Mo RAM) avec base de données <b>SQLite</b> locale ultra-rapide.</p>
 </div>
 
 <br/>
 
+<!-- REMPLACER L'URL CI-DESSOUS EN GLISSANT LA NOUVELLE VIDEO DANS L'EDITEUR GITHUB -->
 https://github.com/user-attachments/assets/8d3af0f4-cdac-47d2-850e-4b8ba9e00355
 
 <br/>
@@ -86,153 +88,111 @@ https://github.com/user-attachments/assets/8d3af0f4-cdac-47d2-850e-4b8ba9e00355
 
 <br/>
 
-<!-- FEATURE 1 : EXAMEN BLANC -->
-<table width="100%">
-  <tr>
-    <td width="62%" valign="middle" align="center">
-      <img src="assets/exam.png" width="100%" alt="Mode Examen Blanc noté sur 20" />
-    </td>
-    <td width="38%" valign="middle">
-      <p><img src="https://img.shields.io/badge/INCLUS_GRATUIT-10b981?style=flat-square" alt="Gratuit" /></p>
-      <h3>Mode Examen Blanc noté sur 20</h3>
-      <p><b>Testez-vous dans les conditions réelles du partiel.</b></p>
-      <ul>
-        <li>Tirage aléatoire de <b>10, 20 ou 50 questions</b> avec chronomètre optionnel par carte (15s, 30s, 60s).</li>
-        <li><b>Note finale sur 20</b>, temps moyen par réponse et mode <b>rejouer uniquement les erreurs</b>, sans jamais dérégler votre planning quotidien.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- FEATURE 2 : IMPORT IA -->
-<table width="100%">
-  <tr>
-    <td width="38%" valign="middle">
-      <p><img src="https://img.shields.io/badge/INCLUS_GRATUIT-10b981?style=flat-square" alt="Gratuit" /></p>
-      <h3>Import IA &amp; Texte en un clic</h3>
-      <p><b>Transformez votre cours en 50 cartes en dix secondes.</b></p>
-      <ul>
-        <li>Copiez le <b>prompt IA pré-configuré</b> intégré, donnez votre cours à <b>ChatGPT ou Claude</b>, et collez le résultat.</li>
-        <li>Détection automatique du format (point-virgule, tabulation <b>Quizlet</b> ou <b>Excel</b>) avec aperçu en direct avant création.</li>
-      </ul>
-    </td>
-    <td width="62%" valign="middle" align="center">
-      <img src="assets/import.png" width="100%" alt="Import rapide IA et Texte" />
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- FEATURE 3 : TEXTES A TROUS -->
-<table width="100%">
-  <tr>
-    <td width="62%" valign="middle" align="center">
-      <img src="assets/trou.png" width="100%" alt="Textes à trous rapides" />
-    </td>
-    <td width="38%" valign="middle">
-      <p><img src="https://img.shields.io/badge/INCLUS_GRATUIT-10b981?style=flat-square" alt="Gratuit" /></p>
-      <h3>Textes à trous rapides (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>)</h3>
-      <p><b>Idéal pour les définitions exactes, formules et articles de loi.</b></p>
-      <ul>
-        <li>Surlignez n'importe quel mot-clé et cliquez sur <b><code>[...] Texte à trou</code></b>.</li>
-        <li>MattAnki génère automatiquement la réponse associée et transforme le mot ciblé en badge masqué pendant vos révisions.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- FEATURE 4 : COLLAGE CTRL+V & CARTES SKIPEES -->
-<table width="100%">
-  <tr>
-    <td width="38%" valign="middle">
-      <p><img src="https://img.shields.io/badge/INCLUS_GRATUIT-10b981?style=flat-square" alt="Gratuit" /></p>
-      <h3>Collage d'images direct (<kbd>Ctrl</kbd>+<kbd>V</kbd>) &amp; Cartes Skipées</h3>
-      <p><b>Illustrez vos cours à la vitesse de l'éclair.</b></p>
-      <ul>
-        <li>Capturez un schéma de polycopié et faites <kbd>Ctrl</kbd>+<kbd>V</kbd> directement dans la Question ou la Réponse, sans enregistrer de fichier.</li>
-        <li>Carte connue sur le bout des doigts ? Écartez-la d'une touche vers l'onglet <b>Skipées</b> pour alléger vos séances, tout en restant réactivable en 1 clic.</li>
-      </ul>
-    </td>
-    <td width="62%" valign="middle" align="center">
-      <img src="assets/ordi2.png" width="100%" alt="Collage d'images Ctrl+V et gestion des cartes" />
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- FEATURE 5 : REVISION CLAVIER & MODE AVANCE -->
-<table width="100%">
-  <tr>
-    <td width="62%" valign="middle" align="center">
-      <img src="assets/ordi3.png" width="100%" alt="Session de révision au clavier" />
-    </td>
-    <td width="38%" valign="middle">
-      <p><img src="https://img.shields.io/badge/INCLUS_GRATUIT-10b981?style=flat-square" alt="Gratuit" /></p>
-      <h3>Révision pilotée au clavier &amp; Mode Avancé</h3>
-      <p><b>Zéro distraction. Uniquement vous et votre cours.</b></p>
-      <ul>
-        <li><kbd>Espace</kbd> : retourner la carte</li>
-        <li><kbd>1</kbd> : <b>Revoir dans 10 minutes</b></li>
-        <li><kbd>2</kbd> : <b>Valider à demain</b></li>
-        <li><kbd>3</kbd> : <b>Ignorer (Skip)</b></li>
-      </ul>
-      <blockquote>
-        <b>Bouton Avancé :</b> Envie de prendre de l'avance ou de refaire un tour complet la veille du partiel ? Débloquez la session du lendemain en un clic.
-      </blockquote>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- FEATURE 6 : COMPATIBILITE ANKI & GOOGLE DRIVE -->
-<table width="100%">
-  <tr>
-    <td width="38%" valign="middle">
-      <p><img src="https://img.shields.io/badge/INCLUS_GRATUIT-10b981?style=flat-square" alt="Gratuit" /></p>
-      <h3>Compatibilité Anki (<code>.apkg</code>) &amp; Synchro Google Drive</h3>
-      <p><b>Vos paquets vous suivent partout, en toute confidentialité.</b></p>
-      <ul>
-        <li>Importez les paquets Anki (<code>.apkg</code>) de votre fac ou prépa et exportez vos créations pour vos camarades.</li>
-        <li>Reliez <b>Google Drive</b> en un clic : paquets, images et progression sont sauvegardés dans votre espace privé <code>appDataFolder</code> entre PC et mobile.</li>
-      </ul>
-    </td>
-    <td width="62%" valign="middle" align="center">
-      <img src="assets/ordi4.png" width="100%" alt="Synchronisation Cloud et fichiers Anki .apkg" />
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- MOBILE PWA SHOWCASE -->
+<!-- GROUPE 1 : INTERFACE, CREATION & CONFORT (SLIDES 3:4 DU CARROUSEL 1) -->
 <div align="center">
-  <h3 id="-version-mobile-pwa">Également inclus gratuitement sur Smartphone (iOS &amp; Android)</h3>
-  <p>Installez la Web App sur votre écran d'accueil pour réviser hors-ligne dans les transports.</p>
+  <p><img src="https://img.shields.io/badge/DESIGN_%26_CREATION-INCLUS_GRATUIT-7c3aed?style=flat-square" alt="Design et Création" /></p>
+  <h3>Une interface pensée pour rester concentré</h3>
 </div>
 
 <table width="100%">
   <tr>
     <td width="33%" align="center" valign="top">
-      <img src="assets/tel2.jpg" width="90%" alt="Révision tactile mobile" />
-      <h4>Gestes Tactiles Intuitifs</h4>
-      <p>Glissez à gauche pour <b>Revoir (10 min)</b> ou à droite pour <b>Valider (Demain)</b>.</p>
+      <img src="assets/c1-slide2.png" width="100%" alt="Tableau de bord v1.2.0 par matière" />
+      <h4>Tableau de bord par matière</h4>
+      <p>Cartes colorées par matière, compteurs du jour et accès direct à vos sessions et examens blancs.</p>
     </td>
     <td width="33%" align="center" valign="top">
-      <img src="assets/tel3.jpg" width="90%" alt="Modification de paquet mobile" />
-      <h4>Édition &amp; Tri Mobile</h4>
-      <p>Recherche instantanée par mot-clé, édition rapide et gestion des cartes <b>Actives / Skipées</b>.</p>
+      <img src="assets/c1-slide3.png" width="100%" alt="Import IA, textes à trous et Ctrl+V" />
+      <h4>Import IA, Trous &amp; <kbd>Ctrl</kbd>+<kbd>V</kbd></h4>
+      <p>Prompt IA intégré (ChatGPT / Claude / Quizlet), textes à trous (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>) et collage direct de schémas.</p>
     </td>
     <td width="33%" align="center" valign="top">
-      <img src="assets/tel4.png" width="90%" alt="Planning de révision mobile" />
-      <h4>Agenda (« Prévisions »)</h4>
-      <p>Planifiez vos paquets sur la semaine et suivez votre barre d'objectif quotidien.</p>
+      <img src="assets/c1-slide4.png" width="100%" alt="Confort multi-écrans Web, Mobile et Desktop" />
+      <h4>Web, Mobile (PWA) &amp; Desktop</h4>
+      <p>Mode sombre natif, gestes tactiles sur smartphone et navigation 100 % clavier sur ordinateur.</p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- GROUPE 2 : EFFICACITE & EXAMENS (SLIDES 3:4 DU CARROUSEL 2) -->
+<div align="center">
+  <p><img src="https://img.shields.io/badge/ENTRAINEMENT_%26_SUIVI-INCLUS_GRATUIT-10b981?style=flat-square" alt="Entraînement et Suivi" /></p>
+  <h3>Pilotez votre préparation jusqu'au jour J</h3>
+</div>
+
+<table width="100%">
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <img src="assets/c2-slide2.png" width="100%" alt="Mode Examen Blanc noté sur 20" />
+      <h4>Examen Blanc noté sur 20</h4>
+      <p>Tirage de 10, 20 ou 50 questions, chronomètre par carte (15s–60s) et mode <b>rejouer uniquement les erreurs</b>.</p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <img src="assets/c2-slide3.png" width="100%" alt="Ciblage automatique des points faibles" />
+      <h4>Ciblage des points faibles</h4>
+      <p>MattAnki isole automatiquement vos cartes les plus fragiles pour concentrer vos efforts là où ça compte.</p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <img src="assets/c2-slide4.png" width="100%" alt="Prévisions, dates d'examen et série quotidienne" />
+      <h4>Prévisions, Dates &amp; Série</h4>
+      <p>Fixez vos dates d'examen, visualisez votre charge sur la semaine et maintenez votre série jour après jour.</p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- GROUPE 3 : SYNC, COMPATIBILITE & MODELE (SLIDES 3:4 DU CARROUSEL 3) -->
+<div align="center">
+  <p><img src="https://img.shields.io/badge/SYNCHRO_%26_LIBERTE-INCLUS_GRATUIT-6366f1?style=flat-square" alt="Synchro et Liberté" /></p>
+  <h3>Vos cours vous suivent partout, sans friction</h3>
+</div>
+
+<table width="100%">
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <img src="assets/c3-slide2.png" width="100%" alt="Synchronisation automatique via Google Drive" />
+      <h4>Synchro Google Drive privée</h4>
+      <p>Passez du PC au téléphone sans coupure. Tout est stocké dans votre propre <code>appDataFolder</code> Drive.</p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <img src="assets/c3-slide3.png" width="100%" alt="Import et export natif Anki .apkg" />
+      <h4>Import / Export <code>.apkg</code></h4>
+      <p>Importez vos anciens paquets Anki en quelques secondes et exportez vos créations pour vos camarades.</p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <img src="assets/c3-slide4.png" width="100%" alt="Modèle transparent gratuit et Pro à vie" />
+      <h4>Gratuit, sans abonnement</h4>
+      <p>100 % des outils inclus jusqu'à 5 paquets actifs. Passez en Pro (3,99 € à vie) uniquement si vous voulez l'illimité.</p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- ENCART RACCOURCIS CLAVIER & MODE AVANCE -->
+<h3 id="-raccourcis--mode-avancé" align="center">Révision rapide au clavier &amp; gestes tactiles</h3>
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>Sur PC / Mac / Linux</h4>
+      <ul>
+        <li><kbd>Espace</kbd> : retourner la carte</li>
+        <li><kbd>1</kbd> : <b>Revoir dans 10 minutes</b></li>
+        <li><kbd>2</kbd> : <b>Valider à demain</b></li>
+        <li><kbd>3</kbd> : <b>Ignorer (Skip)</b> — réactivable en 1 clic dans l'onglet <i>Skipées</i></li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>Sur Smartphone (PWA) &amp; Mode Avancé</h4>
+      <ul>
+        <li><b>Glisser à gauche</b> : Revoir dans 10 minutes</li>
+        <li><b>Glisser à droite</b> : Valider pour demain</li>
+        <li><b>Bouton Avancé</b> : débloquez la session du lendemain en 1 clic pour prendre de l'avance la veille d'un partiel</li>
+      </ul>
     </td>
   </tr>
 </table>
@@ -266,6 +226,7 @@ https://github.com/user-attachments/assets/8d3af0f4-cdac-47d2-850e-4b8ba9e00355
 | **Nombre de cartes créées** | **Illimité** | **Illimité** |
 | **Volume de révisions quotidiennes** | **100 % illimité** | **100 % illimité** |
 | **Mode Examen Blanc chronométré &amp; Note sur 20** | **Inclus gratuitement** | **Inclus** |
+| **Points faibles, Séries &amp; Dates d'examen** | **Inclus gratuitement** | **Inclus** |
 | **Import rapide en masse (ChatGPT, Claude, Quizlet)** | **Inclus gratuitement** | **Inclus** |
 | **Textes à trous rapides (`Ctrl + Shift + C`)** | **Inclus gratuitement** | **Inclus** |
 | **Cycle quotidien déterministe &amp; Mode Avancé** | **Inclus gratuitement** | **Inclus** |
@@ -313,8 +274,8 @@ https://github.com/user-attachments/assets/8d3af0f4-cdac-47d2-850e-4b8ba9e00355
     <td width="50%" valign="top">
       <h3>Activation &amp; Sécurité de la Licence</h3>
       <pre>
-1. Paiement LemonSqueezy (3,99 €)
-   │  (Stripe / PayPal / Apple Pay)
+1. Paiement sécurisé (3,99 €)
+   │  (Carte / PayPal / Apple Pay)
    ▼
 2. Clé instantanée : XXXX-XXXX-XXXX-XXXX
    │  (Paramètres &gt; Licence)
@@ -340,9 +301,9 @@ https://github.com/user-attachments/assets/8d3af0f4-cdac-47d2-850e-4b8ba9e00355
 | Plateforme | Format | Lien direct |
 | :--- | :--- | :--- |
 | **Navigateur &amp; Mobile (PWA)** | Application Web progressive (iOS, Android, PC) | [**Ouvrir neplexx.github.io/MattAnki**](https://neplexx.github.io/MattAnki/) |
-| **Windows** | Installateur `.exe` / `.msi` | [**Télécharger depuis GitHub Releases**](https://github.com/neplexx/MattAnki/releases/latest) |
+| **Windows** | Installateur `.exe` | [**Télécharger depuis GitHub Releases**](https://github.com/neplexx/MattAnki/releases/latest) |
 | **macOS** | Image disque `.dmg` | [**Télécharger depuis GitHub Releases**](https://github.com/neplexx/MattAnki/releases/latest) |
-| **Linux** | Paquets `.deb` / `.AppImage` | [**Télécharger depuis GitHub Releases**](https://github.com/neplexx/MattAnki/releases/latest) |
+| **Linux** | Paquets `.AppImage` / `.deb` / `.rpm` | [**Télécharger depuis GitHub Releases**](https://github.com/neplexx/MattAnki/releases/latest) |
 | **Licence MattAnki Pro** | Clé d'activation à vie (Multi-appareils) | [**Acheter une clé officielle (3,99 €)**](https://neplexx-mattanki.lemonsqueezy.com/checkout/buy/1d3cb67f-45f0-4136-8542-e5457ff25e4a) |
 
 <br/>

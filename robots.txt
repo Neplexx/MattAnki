@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://neplexx.github.io/MattAnki/sitemap.xml
+Sitemap: https://mattanki.fr/sitemap.xml

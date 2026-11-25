@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://neplexx.github.io/MattAnki/welcome</loc>
+    <loc>https://mattanki.fr/welcome</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://neplexx.github.io/MattAnki/welcome/download</loc>
+    <loc>https://mattanki.fr/welcome/download</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://neplexx.github.io/MattAnki/terms</loc>
+    <loc>https://mattanki.fr/terms</loc>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://neplexx.github.io/MattAnki/privacy</loc>
+    <loc>https://mattanki.fr/privacy</loc>
     <priority>0.4</priority>
   </url>
 </urlset>

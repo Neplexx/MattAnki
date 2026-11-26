@@ -14,7 +14,7 @@
 <br/>
 
 <p>
-  <img src="https://img.shields.io/badge/VERSION-v1.2.0-9333ea?style=flat-square" alt="Version v1.2.0" />&nbsp;
+  <img src="https://img.shields.io/badge/VERSION-v1.2.1-9333ea?style=flat-square" alt="Version v1.2.1" />&nbsp;
   <img src="https://img.shields.io/badge/CYCLE_DETERMINISTE-100%25_SOUS_CONTROLE-7c3aed?style=flat-square" alt="Déterministe" />&nbsp;
   <img src="https://img.shields.io/badge/ZERO_KNOWLEDGE-GOOGLE_DRIVE-10b981?style=flat-square" alt="Zero Knowledge" />&nbsp;
   <img src="https://img.shields.io/badge/OFFLINE_FIRST-RUST_%2B_SQLITE-1e1b4b?style=flat-square" alt="Offline First" />
@@ -68,7 +68,7 @@
 <!-- VIDEO PLEINE LARGEUR -->
 <div align="center">
   <p><img src="https://img.shields.io/badge/APPLICATIONS_NATIVES-WINDOWS_%7C_MACOS_%7C_LINUX-7c3aed?style=flat-square" alt="Desktop" /></p>
-  <h2 id="-démo-vidéo">MattAnki v1.2.0 : En Action</h2>
+  <h2 id="-démo-vidéo">MattAnki v1.2.1 : En Action</h2>
   <p>Propulsé par <b>Rust</b> et <b>Tauri v2</b> (&lt; 50 Mo RAM) avec base de données <b>SQLite</b> locale ultra-rapide.</p>
 </div>
 
@@ -97,7 +97,7 @@ https://github.com/user-attachments/assets/8d3af0f4-cdac-47d2-850e-4b8ba9e00355
 <table width="100%">
   <tr>
     <td width="33%" align="center" valign="top">
-      <img src="assets/c1-slide2.png" width="100%" alt="Tableau de bord v1.2.0 par matière" />
+      <img src="assets/c1-slide2.png" width="100%" alt="Tableau de bord v1.2.1 par matière" />
       <h4>Tableau de bord par matière</h4>
       <p>Cartes colorées par matière, compteurs du jour et accès direct à vos sessions et examens blancs.</p>
     </td>

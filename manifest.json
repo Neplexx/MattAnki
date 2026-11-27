@@ -3,7 +3,7 @@
   "short_name": "MattAnki",
   "description": "Application PWA de révision par répétition espacée compatible Anki",
   "id": "/",
-  "start_url": "/",
+  "start_url": "/app",
   "scope": "/",
   "display": "standalone",
   "orientation": "any",
